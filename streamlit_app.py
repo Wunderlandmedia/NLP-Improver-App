@@ -61,7 +61,7 @@ def generate_content(text, api_key):
         return "Error generating content."
 
 def main():
-    st.title("Text Analyzer and Improvement Suggestions")
+    st.title("Wunderland Analyzer and Improvement Suggestions")
 
     api_key = st.text_input("Enter your OpenAI API key:", type="password")
     user_input = st.text_area("Paste your text here:", height=200)
